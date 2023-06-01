@@ -30,3 +30,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+    st.set_option('deprecation.showPyplotGlobalUse', False)
