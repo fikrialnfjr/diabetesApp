@@ -1,12 +1,8 @@
 import streamlit as st
-from prediction import performPrediction
-from clustering import performClustering
-from visualization import showVisualization
-import pandas as pd
+from prediction import *
+from clustering import *
+from visualization import *
 
-def loadData():
-    df = pd.read_csv('diabetes.csv')
-    return df
 
 def showRawData():
     df = loadData()
